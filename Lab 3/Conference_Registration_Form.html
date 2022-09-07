@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conference Registration Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="conference_styles.css">
+</head>
+<body>
+
+<!--Title-->
+<h3>Conference Registration Form</h3>
+
+<form class="ml-5 mr-5" >
+    <!--text input for registrant name-->
+    <label for="name">Name</label>
+    <input id="name" name="name" class="form-control" type="text" required>
+
+    <!--    password required-->
+
+
+    <!--email input for registrant email-->
+    <div>
+        <br>
+        <label for="student_email">Email</label>
+        <input id="student_email" class="form-control" name="student_email" type="email" required>
+    </div>
+
+    <!--textarea for comments REQUIRED-->
+    <div>
+        <br>
+        <label for="comments">Comments</label>
+        <br>
+        <textarea id="comments" class="form-control" required name="comments"></textarea>
+    </div>
+
+
+
+    <!--submit button-->
+    <div>
+        <br>
+        <input type="submit" class="btn btn-primary mt-4">
+    </div>
+
+
+
+</body>
+</html>

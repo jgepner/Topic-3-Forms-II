@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"><
+<head>
+  <meta charset="UTF-8">
+  <title>Labels</title>
+</head>
+<body>
+
+<form>
+<!-- example of "for" in label and "id" in input-->
+<!--  input validation added; didn't work after for-->
+<label for="user_name">Enter your name: </label>
+<input id="user_name" required>
+
+<br><input type="color">
+<br><textarea rows="5" cols="40">Default text appears in box</textarea>
+
+<!--for a drop down menu with options-->
+<label>How many?
+<br><select>
+  <option>Option One</option>
+  <option>Option Two</option>
+</select>
+</label>
+
+<!--radio buttons with id and for-->
+<br><label>Do you understand the question?</label>
+<input id="answer_yes" name="name" type="radio" checked>
+<label for ="answer_yes">Yes</label>
+<input id="answer_no" name="name" type="radio">
+<label for="answer_no">No</label>
+
+<!--entering a default VALUE-->
+<br><input type="text" value="default value">
+<br><input type="number" value="100">
+
+<!--create a checkbox with a check in it-->
+<br><input type="checkbox" checked>
+
+<!--give input a name to label it-->
+<p>What is your lucky number?</p>
+<input name="lucky_number" type="number">
+
+  <br>
+  <input type="submit">
+
+</form>
+
+</body>
+</html>
