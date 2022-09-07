@@ -1,10 +1,10 @@
 .jumbotron {
     text-align: center;
-    background-color: #2b56e2;
+    background-color: blueviolet;
     color: white
 }
 
 body {
-    background-color: rgb(127,255,251);
+    background-color: pink;
     font-family: Arial, sans-serif
 }

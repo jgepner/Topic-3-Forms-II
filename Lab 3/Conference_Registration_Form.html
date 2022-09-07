@@ -11,13 +11,19 @@
 <!--Title-->
 <h3>Conference Registration Form</h3>
 
-<form class="ml-5 mr-5" >
+<form class="ml-5 mr-5">
     <!--text input for registrant name-->
+    <div>
     <label for="name">Name</label>
-    <input id="name" name="name" class="form-control" type="text" required>
+    <input id="name" name="name" class="form-control" type="text" maxlength="70" required>
+    </div>
 
     <!--    password required-->
-
+    <div>
+        <br>
+    <label for="password">Password</label>
+    <input id="password" name="password" class="form-control" type="text" required>
+    </div>
 
     <!--email input for registrant email-->
     <div>
@@ -34,6 +40,45 @@
         <textarea id="comments" class="form-control" required name="comments"></textarea>
     </div>
 
+<!--    T-shirt size with select and option-->
+    <div>
+        <br>
+        <p>All attendees receive a free T-shirt</p>
+        <label for="T-shirt-size">Choose a T-shirt size:</label>
+        <select name="T-shirt-size" id="T-shirt-size" required>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select>
+    </div>
+
+<!--    Enter a date of birth-->
+    <div>
+        <br><label for="birthdate">Please enter your date of birth:</label>
+        <input id="birthdate" name="birthdate" class="form-control" type="date" required>
+    </div>
+
+<!--    radio buttons re: email updates-->
+    <div>
+        <br><label class="form-text">Do you want email updates from conference sponsors?</label>
+        <div class="form-check">
+            <input id="yes" name="emailupdate" class="form-check-input" type="radio" checked>
+            <label for="yes" class="form-check-label">Yes</label>
+        </div>
+        <div class="form-check">
+            <input id="no" name="emailupdate" class="form-check-input" type="radio">
+            <label for="no" class="form-check-label">No</label>
+        </div>
+
+<!--Choose sessions: checkboxes for morning and afternoon-->
+
+
+
+<!--special requests: textarea-->
+
+
+
+    </div>
 
 
     <!--submit button-->
