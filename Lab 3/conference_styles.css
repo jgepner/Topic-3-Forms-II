@@ -1,6 +1,17 @@
 h3 {
     padding: 20px;
-    text-align: center
+    text-align: center;
+    font-family: 'Lora', serif;
 }
 
+body {
+    font-family: 'Lora', serif;
+    background-image: linear-gradient(#a7f542, #42a7f5)
+}
 
+#title {
+    border: 1px black double;
+    padding: 3px;
+    margin: 20px;
+    background-color: lightgray;
+}
